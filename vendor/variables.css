@@ -1,13 +1,15 @@
 :root{
-  --variables-red : 10px;
-  --variables : 10px;
-  --variables : 10px;
-  --variables : 10px;
-  --variables : 10px;
-  --variables : 10px;
-  --variables : 10px;
-  --variables : 10px;
-  --variables : 10px;
-  --variables : 10px;
-  --variables : 10px;
+  --base-bg-color : 10px;
+  --base-footer-black : 10px;
+  --primary-text : 10px;
+  --secondary-text : 10px;
+  --light-accent-color : 10px;
+  --accent-color : 10px;
+  --dark-accent-color : 10px;
+  --first-primary-color : 10px;
+  --first-dark-primary-color : 10px;
+  --secondary-primary-color : 10px;
+  --secondary-dark-primary-color : 10px;
+  --sub-block-border-color : 10px;
+  --sub-block-bg-color : 10px;
 }

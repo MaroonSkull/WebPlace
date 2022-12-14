@@ -35,7 +35,7 @@
 @import '../blocks/secondary-button/secondary-button.css';
 
 /* List */
-@import '../blocks/lists/lists.css';
+@import '../blocks/list/list.css';
 @import '../blocks/link/link.css';
 
 /* IMGs */
@@ -47,7 +47,7 @@
 /* Header */
 @import '../blocks/header/header.css';
 @import '../blocks/header/__title/header__title.css';
-@import '../blocks/header/__nav-lists/header__nav-lists.css';
+@import '../blocks/header/__nav-list/header__nav-list.css';
 @import '../blocks/header/__link/header__link.css';
 @import '../blocks/header/__list/header__list.css';
 

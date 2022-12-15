@@ -1,3 +1,6 @@
-.list{
-
+.header__list {
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

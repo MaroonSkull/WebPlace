@@ -1,0 +1,6 @@
+.choose{
+    background: linear-gradient(to right top, var(--second-dark-primary-color), var(--second-primary-color));
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

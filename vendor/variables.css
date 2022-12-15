@@ -8,8 +8,12 @@
   --dark-accent-color : #3469FF;
   --first-primary-color : #2C1745;
   --first-dark-primary-color : #08041B;
-  --secondary-primary-color : #521530;
-  --secondary-dark-primary-color : #290A2B;
+  --second-primary-color : #521530;
+  --second-dark-primary-color : #290A2B;
   --sub-block-border-color : #FFF6;
   --sub-block-bg-color : #0003;
+}
+
+:root{
+  --block-width: calc(1200px / 12);
 }

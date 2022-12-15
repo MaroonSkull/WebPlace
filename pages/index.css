@@ -46,6 +46,8 @@
 
 /* Header */
 @import '../blocks/header/header.css';
+@import '../blocks/header/__nav/header__nav.css';
+@import '../blocks/header/__logo/header__logo.css';
 @import '../blocks/header/__title/header__title.css';
 @import '../blocks/header/__nav-list/header__nav-list.css';
 @import '../blocks/header/__link/header__link.css';
@@ -53,6 +55,8 @@
 
 /* Main */
 @import '../blocks/main/main.css';
+@import '../blocks/main/__buttons/main__buttons.css';
+@import '../blocks/main/__my-auto/main__my-auto.css';
 @import '../blocks/main/__h1/main__h1.css';
 @import '../blocks/main/__md4/main__md4.css';
 @import '../blocks/main/__md8/main__md8.css';

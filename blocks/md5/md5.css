@@ -1,0 +1,4 @@
+.md5{
+    width: calc(var(--block-width) * 5);
+    display: flex;
+}

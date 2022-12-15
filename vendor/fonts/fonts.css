@@ -1,7 +1,16 @@
 @font-face {
-  font-family: '';  /* Название шрифта */
-  src: url('./') format('woff2'), /* Путь к расположению шрифта */
-       url('./') format('woff');
+  font-family: 'Noto Serif';  /* Название шрифта */
+  src: url('./NotoSerif.woff2') format('woff2'), /* Путь к расположению шрифта */
+       url('./NotoSerif.woff') format('woff');
+  font-weight: 400; /* Толщина шрифта */
+  font-style: normal; /* Стиль шрифта */
+  font-display: swap; /* Отображение шрифта */
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';  /* Название шрифта */
+  src: url('./SourceSansPro-Regular.woff2') format('woff2'), /* Путь к расположению шрифта */
+       url('./SourceSansPro-Regular.woff') format('woff');
   font-weight: 400; /* Толщина шрифта */
   font-style: normal; /* Стиль шрифта */
   font-display: swap; /* Отображение шрифта */

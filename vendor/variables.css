@@ -1,13 +1,19 @@
+:root {
+  --base-bg-color : #121212;
+  --base-footer-black : black;
+  --primary-text : #FFF;
+  --secondary-text : #FBFBFB80;
+  --light-accent-color : #0096FF;
+  --accent-color : #1085FD;
+  --dark-accent-color : #3469FF;
+  --first-primary-color : #2C1745;
+  --first-dark-primary-color : #08041B;
+  --second-primary-color : #521530;
+  --second-dark-primary-color : #290A2B;
+  --sub-block-border-color : #FFF6;
+  --sub-block-bg-color : #0003;
+}
+
 :root{
-  --variables-red : 10px;
-  --variables : 10px;
-  --variables : 10px;
-  --variables : 10px;
-  --variables : 10px;
-  --variables : 10px;
-  --variables : 10px;
-  --variables : 10px;
-  --variables : 10px;
-  --variables : 10px;
-  --variables : 10px;
+  --block-width: calc(1200px / 12);
 }

@@ -7,46 +7,124 @@
   <meta name="keywords" content="WebPlace, Студенчиский проект, Интренет магазин">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="pages/index.css" type="text/css">
   <title>WebPlace</title>
 </head>
 
 <body class="page">
-  <header class="header">
-    <div class="header__container">
-      <nav class="nav header__nav">
-        <ul class="lists header__nav-lists">
-          <li class="header__list">
-            <a class="link header__link" href="#">text</a>
-          </li>
-          <li class="header__list">
-            <a class="link header__link" href="#">text</a>
-          </li>
-          <li class="header__list">
-            <a class="link header__link" href="#">text</a>
-          </li>
-          <li class="header__list">
-            <a class="link header__link" href="#">text</a>
-          </li>
-        </ul>
-      </nav>
+  <header class="header-wrapper">
+    <section class="header">
+    <div class="logo header__logo">
+      <img src="images/header/header-logo/logo.svg" alt="WebPlace">
     </div>
+    <nav class="header__nav">
+      <ul class="list header__nav-list">
+        <li class="header__list">
+          <a class="p link header__link header__link_active" href="#">Оценить</a>
+        </li>
+        <li class="header__list">
+          <a class="p link header__link" href="#">Заказать</a>
+        </li>
+        <li class="header__list">
+          <a class="p link header__link" href="#">Поговорить</a>
+        </li>
+        <li class="header__list">
+          <a class="p link header__link" href="#">О нас</a>
+        </li>
+      </ul>
+    </nav></section>
   </header>
-  <main class="main">
-    <section class="my-works">
-      <h2></h2>
-    </section>
-    <section>
-      <h2></h2>
-    </section>
-    <section>
-      <h2></h2>
-    </section>
+  <main class="main" role="main">
+    <div class="md8 main__md8">
+      <div class="my-auto main__my-auto">
+        <h1 class="h1 main__h1">Создание и сопровождение сайтов</h1>
+        <p class="p main__p">Создание сайтов любой сложности. Поможем Вам определиться, какой сайт для Вас максимально
+          подходит. Реализуем его.</p>
+        <div class="main__buttons">
+          <span class="primary-button main__primary-button">Посмотреть прайс</span>
+          <span class="secondary-button main__secondary-button">Наши работы</span>
+        </div>
+      </div>
+    </div>
+    <div class="md4 main__md4">
+      <div class="my-auto main__my-auto">
+        <img src="images/main/statue.png" alt="antic statue" class="my-auto main__md4">
+      </div>
+    </div>
   </main>
+  <section class="works">
+    <header class="lg12 works__lg12">
+      <h1 class="h1 works__h1">Наши работы</h1>
+    </header>
+    <div class="horizontal" style="margin-bottom: 115px; height: 100%;">
+      <div class="md7 works__md7">
+        <img class="works__img" src="images/works/div.png" alt="NDA-project">
+      </div>
+      <div class="md4 works__md4">
+        <h2 class="h2 works__h2">Some NDA-project</h2>
+        <p class="p works__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+        <span class="primary-button works__primary-button">Больше фото</span>
+        <span class="secondary-button works__secondary-button">Перейти на сайт</span>
+      </div>
+    </div>
+  </section>
+  <section class="choose">
+    <div class="md7 choose__md7">
+      <div class="my-auto">
+        <h2 class="h2 choose__h2">Какой сайт Вам нужен?</h2>
+        <p class="p choose__p">Выберите подходящий тип сайта.<br>Если Вы не знаете, какой сайт Вам нужен, оставьте свои
+          контактные данные в форме ниже, мы проведём бесплатный аудит.</p>
+        <img class="sample choose__sample" src="images/choose/sample.png" alt="sample of landing">
+        <span class="primary-button choose__primary-button">Заказать</span>
+        <span class="secondary-button choose__secondary-button">Больше фото</span>
+      </div>
+    </div>
+    <div class="md5 choose__md5">
+      <div class="my-auto" style="height: 100%; justify-content: center; align-items: center; justify-content: space-between">
+        <a class="link h3 list choose__link choose__list" href="#">Какой-то сайт</a>
+        <a class="link h3 list choose__link choose__list" href="#">Фотогалерея</a>
+        <a class="link h3 list choose__link choose__list" href="#">Сайт портфолио</a>
+        <a class="link h3 list choose__link choose__list" href="#">Сайт-визитка</a>
+        <a class="link h1 list choose__link-active choose__list" href="#">Лендинг</a>
+        <a class="link h3 list choose__link choose__list" href="#">Интернет магазин</a>
+        <a class="link h3 list choose__link choose__list" href="#">Какой-то сайт</a>
+        <a class="link h3 list choose__link choose__list" href="#">Какой-то сайт</a>
+        <a class="link h3 list choose__link choose__list" href="#">Какой-то сайт</a>
+      </div>
+    </div>
+  </section>
+  <section class="request">
+    <div class="md5 request__md5">
+      <img class="my-auto request__my-auto" src="images/request/statue.png" alt="antic statue 2">
+    </div>
+    <div class="md7 request__md7">
+      <div class="my-auto">
+        <h1 class="h1 request__h1">Оставьте заявку</h1>
+        <p class="p request__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+          anim id est laborum.</p>
+        <p class="p helper request__helper">Звонки осуществляются ежедневно, 9:00-18:00</p>
+        <div class="horizontal" style="justify-content: flex-start;">
+          <input class="phone-field request__phone-field" type="text" placeholder="Номер телефона"></input>
+          <img class="callback primary-button request__callback" src="images/request/callback.svg" alt="submit">
+        </div>
+      </div>
+    </div>
+  </section>
   <footer class="footer">
-
+    <p class="helper copy footer__copy">© Web Plc, 2022.<br>C++ must have.</p>
+    <div class="media footer__media">
+      <img class="vk footer__vk" src="images/footer/footer-media/vk.svg" alt="vk">
+      <img class="tg footer__tg" src="images/footer/footer-media/tg.svg" alt="tg">
+    </div>
   </footer>
-  <script src="./script/index.js"></script>
+  <!-- <script src="./script/index.js"></script> -->
 </body>
 
 </html>

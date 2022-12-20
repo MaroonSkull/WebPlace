@@ -1,0 +1,4 @@
+.md7{
+    width: calc(var(--block-width) * 7);
+    display: flex;
+}

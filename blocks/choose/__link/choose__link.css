@@ -1,0 +1,7 @@
+.choose__link {
+  color: var(--secondary-text);
+}
+
+.choose__link:hover, .choose__link-active {
+  color: var(--primary-text);
+}

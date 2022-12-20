@@ -1,0 +1,14 @@
+.secondary-button {
+    color: var(--primary-text);
+    background: transparent;
+    font-size: 19px;
+    height: 41px;
+    width: 197px;
+    box-sizing: border-box;
+    border: 2px solid var(--accent-color);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro';
+}

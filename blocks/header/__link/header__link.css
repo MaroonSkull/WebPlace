@@ -1,0 +1,8 @@
+.header__link{
+  margin-left: 84px;
+  color: var(--secondary-text);
+}
+
+.header__link:hover {
+  color: var(--primary-text);
+}

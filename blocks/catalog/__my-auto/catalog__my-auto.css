@@ -1,6 +1,7 @@
 .catalog__my-auto {
   display: flex;
   flex-direction: row;
+  padding-top: 115px;
   flex-wrap: wrap;
   width: 100% !important;
 }

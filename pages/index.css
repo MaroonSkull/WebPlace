@@ -4,25 +4,24 @@
 @import '../vendor/fonts/fonts.css';
 
 /* Units */
-@import '../blocks/body/page.css';
-@import '../blocks/media/media.css';
+@import '../elements/body/page.css';
 @import '../blocks/phone-field/phone-field.css';
 
 /* Texts */
-@import '../blocks/h1/h1.css';
-@import '../blocks/h2/h2.css';
-@import '../blocks/h3/h3.css';
-@import '../blocks/p/p.css';
+@import '../elements/h1/h1.css';
+@import '../elements/h2/h2.css';
+@import '../elements/h3/h3.css';
+@import '../elements/p/p.css';
 @import '../blocks/helper/helper.css';
 @import '../blocks/copy/copy.css';
 
 /* Blocks */
-@import '../blocks/my-auto/my-auto.css';
-@import '../blocks/md4/md4.css';
-@import '../blocks/md5/md5.css';
-@import '../blocks/md7/md7.css';
-@import '../blocks/md8/md8.css';
-@import '../blocks/lg12/lg12.css';
+@import '../sized/my-auto/my-auto.css';
+@import '../sized/md4/md4.css';
+@import '../sized/md5/md5.css';
+@import '../sized/md7/md7.css';
+@import '../sized/md8/md8.css';
+@import '../sized/lg12/lg12.css';
 
 /* SVGs */
 @import '../blocks/logo/logo.css';
@@ -35,8 +34,8 @@
 @import '../blocks/secondary-button/secondary-button.css';
 
 /* List */
-@import '../blocks/list/list.css';
-@import '../blocks/link/link.css';
+@import '../elements/list/list.css';
+@import '../elements/link/link.css';
 
 /* IMGs */
 @import '../blocks/sample/sample.css';

@@ -1,0 +1,78 @@
+/* Vendors */
+@import '../vendor/normalize.css';
+@import '../vendor/variables.css';
+@import '../vendor/fonts/fonts.css';
+
+/* Units */
+@import '../elements/body/page.css';
+@import '../blocks/phone-field/phone-field.css';
+
+/* Texts */
+@import '../elements/h1/h1.css';
+@import '../elements/h2/h2.css';
+@import '../elements/h3/h3.css';
+@import '../elements/p/p.css';
+@import '../blocks/helper/helper.css';
+@import '../blocks/copy/copy.css';
+
+/* Blocks */
+@import '../sized/my-auto/my-auto.css';
+@import '../sized/md4/md4.css';
+@import '../sized/md5/md5.css';
+@import '../sized/md7/md7.css';
+@import '../sized/md8/md8.css';
+@import '../sized/lg12/lg12.css';
+
+/* SVGs */
+@import '../blocks/logo/logo.css';
+@import '../blocks/callback/callback.css';
+@import '../blocks/tg/tg.css';
+@import '../blocks/vk/vk.css';
+
+/* Buttons */
+@import '../blocks/primary-button/primary-button.css';
+@import '../blocks/secondary-button/secondary-button.css';
+
+/* List */
+@import '../elements/list/list.css';
+@import '../elements/link/link.css';
+
+/* IMGs */
+@import '../blocks/sample/sample.css';
+
+/* -- */
+
+/* Header */
+@import '../blocks/header/header.css';
+@import '../blocks/header/__nav/header__nav.css';
+@import '../blocks/header/__logo/header__logo.css';
+@import '../blocks/header/__title/header__title.css';
+@import '../blocks/header/__nav-list/header__nav-list.css';
+@import '../blocks/header/__link/header__link.css';
+@import '../blocks/header/__list/header__list.css';
+
+/* bucketlist */
+@import '../blocks/bucketlist/bucketlist.css';
+@import '../blocks/bucketlist/__h2/bucketlist__h2.css';
+@import '../blocks/bucketlist/__link/bucketlist__link.css';
+@import '../blocks/bucketlist/__list/bucketlist__list.css';
+@import '../blocks/bucketlist/__md5/bucketlist__md5.css';
+@import '../blocks/bucketlist/__md7/bucketlist__md7.css';
+@import '../blocks/bucketlist/__p/bucketlist__p.css';
+@import '../blocks/bucketlist/__primary-button/bucketlist__primary-button.css';
+@import '../blocks/bucketlist/__sample/bucketlist__sample.css';
+@import '../blocks/bucketlist/__secondary-button/bucketlist__secondary-button.css';
+
+/* Footer */
+@import '../blocks/footer/footer.css';
+@import '../blocks/footer/__copy/footer__copy.css';
+@import '../blocks/footer/__media/footer__media.css';
+@import '../blocks/footer/__tg/footer__tg.css';
+@import '../blocks/footer/__vk/footer__vk.css';
+
+/* -- */
+
+/* Main */
+@import '../blocks/main/main.css';
+/* Footer */
+@import '../blocks/footer/footer.css';

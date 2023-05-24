@@ -1,0 +1,73 @@
+/* Vendors */
+@import '../vendor/normalize.css';
+@import '../vendor/variables.css';
+@import '../vendor/fonts/fonts.css';
+
+/* Units */
+@import '../elements/body/page.css';
+@import '../blocks/phone-field/phone-field.css';
+
+/* Texts */
+@import '../elements/h1/h1.css';
+@import '../elements/h2/h2.css';
+@import '../elements/h3/h3.css';
+@import '../elements/p/p.css';
+@import '../blocks/helper/helper.css';
+@import '../blocks/copy/copy.css';
+
+/* Blocks */
+@import '../sized/my-auto/my-auto.css';
+@import '../sized/md3/md3.css';
+@import '../sized/md6/md6.css';
+@import '../sized/md9/md9.css';
+@import '../sized/lg12/lg12.css';
+
+/* SVGs */
+@import '../blocks/logo/logo.css';
+@import '../blocks/callback/callback.css';
+@import '../blocks/tg/tg.css';
+@import '../blocks/vk/vk.css';
+
+/* Buttons */
+@import '../blocks/primary-button/primary-button.css';
+@import '../blocks/secondary-button/secondary-button.css';
+
+/* List */
+@import '../elements/list/list.css';
+@import '../elements/link/link.css';
+
+/* IMGs */
+@import '../blocks/sample/sample.css';
+
+/* -- */
+
+/* Header */
+@import '../blocks/header/header.css';
+@import '../blocks/header/__nav/header__nav.css';
+@import '../blocks/header/__logo/header__logo.css';
+@import '../blocks/header/__title/header__title.css';
+@import '../blocks/header/__nav-list/header__nav-list.css';
+@import '../blocks/header/__link/header__link.css';
+@import '../blocks/header/__list/header__list.css';
+
+/* product */
+@import '../blocks/product/product.css';
+@import '../blocks/product/__my-auto/product__my-auto.css';
+@import '../blocks/product/__element/product__element.css';
+@import '../blocks/product/__md3/product__md3.css';
+@import '../blocks/product/__md9/product__md9.css';
+@import '../blocks/product/__lg12/product__lg12.css';
+
+/* Footer */
+@import '../blocks/footer/footer.css';
+@import '../blocks/footer/__copy/footer__copy.css';
+@import '../blocks/footer/__media/footer__media.css';
+@import '../blocks/footer/__tg/footer__tg.css';
+@import '../blocks/footer/__vk/footer__vk.css';
+
+/* -- */
+
+/* Main */
+@import '../blocks/main/main.css';
+/* Footer */
+@import '../blocks/footer/footer.css';

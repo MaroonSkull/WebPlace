@@ -1,0 +1,7 @@
+.product__lg12 {
+  flex-direction: row;
+  align-items: center;
+  padding: 115px 0 0;
+  border-top: 0;
+  border-bottom: 0;
+}

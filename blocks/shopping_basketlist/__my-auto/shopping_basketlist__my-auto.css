@@ -1,0 +1,6 @@
+.shopping_basketlist__my-auto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100% !important;
+}

@@ -1,0 +1,4 @@
+.md9{
+    width: calc(var(--block-width) * 9);
+    display: flex;
+}

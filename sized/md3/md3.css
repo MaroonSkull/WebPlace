@@ -1,0 +1,4 @@
+.md3{
+    width: calc(var(--block-width) * 3);
+    display: flex;
+}

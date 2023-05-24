@@ -1,8 +1,0 @@
-.bucketlist {
-  width: calc(var(--block-width) * 12);
-  height: 115px;
-  display:flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-}

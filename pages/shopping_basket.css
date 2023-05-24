@@ -17,11 +17,8 @@
 
 /* Blocks */
 @import '../sized/my-auto/my-auto.css';
-@import '../sized/md4/md4.css';
-@import '../sized/md5/md5.css';
-@import '../sized/md7/md7.css';
-@import '../sized/md8/md8.css';
-@import '../sized/lg12/lg12.css';
+@import '../sized/md3/md3.css';
+@import '../sized/md9/md9.css';
 
 /* SVGs */
 @import '../blocks/logo/logo.css';
@@ -51,17 +48,18 @@
 @import '../blocks/header/__link/header__link.css';
 @import '../blocks/header/__list/header__list.css';
 
-/* bucketlist */
-@import '../blocks/bucketlist/bucketlist.css';
-@import '../blocks/bucketlist/__h2/bucketlist__h2.css';
-@import '../blocks/bucketlist/__link/bucketlist__link.css';
-@import '../blocks/bucketlist/__list/bucketlist__list.css';
-@import '../blocks/bucketlist/__md5/bucketlist__md5.css';
-@import '../blocks/bucketlist/__md7/bucketlist__md7.css';
-@import '../blocks/bucketlist/__p/bucketlist__p.css';
-@import '../blocks/bucketlist/__primary-button/bucketlist__primary-button.css';
-@import '../blocks/bucketlist/__sample/bucketlist__sample.css';
-@import '../blocks/bucketlist/__secondary-button/bucketlist__secondary-button.css';
+/* shopping_basketlist */
+@import '../blocks/shopping_basketlist/shopping_basketlist.css';
+@import '../blocks/shopping_basketlist/__my-auto/shopping_basketlist__my-auto.css';
+@import '../blocks/shopping_basketlist/__element/shopping_basketlist__element.css';
+@import '../blocks/shopping_basketlist/__h2/shopping_basketlist__h2.css';
+@import '../blocks/shopping_basketlist/__link/shopping_basketlist__link.css';
+@import '../blocks/shopping_basketlist/__list/shopping_basketlist__list.css';
+@import '../blocks/shopping_basketlist/__md3/shopping_basketlist__md3.css';
+@import '../blocks/shopping_basketlist/__p/shopping_basketlist__p.css';
+@import '../blocks/shopping_basketlist/__primary-button/shopping_basketlist__primary-button.css';
+@import '../blocks/shopping_basketlist/__sample/shopping_basketlist__sample.css';
+@import '../blocks/shopping_basketlist/__secondary-button/shopping_basketlist__secondary-button.css';
 
 /* Footer */
 @import '../blocks/footer/footer.css';

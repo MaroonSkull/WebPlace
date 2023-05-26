@@ -1,4 +1,5 @@
-.md6{
+@media screen and (max-width: 1280px) {
+  .md6 {
     width: calc(var(--block-width) * 6);
-    display: flex;
+  }
 }

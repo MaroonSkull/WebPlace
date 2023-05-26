@@ -14,6 +14,25 @@
   --sub-block-bg-color : #0003;
 }
 
-:root{
-  --block-width: calc(1200px / 12);
+:root {
+  --render-width: 1200px;
+  --block-modifier: 1; /* 1/12 */
+}
+
+@media screen and (max-width: 1280px) {
+  :root {
+    --render-width: 900px;
+    --block-modifier: 2; /* 1/6 = 2/12 */
+  }
+}
+
+@media screen and (max-width: 968px) {
+  :root {
+    --render-width: 95%;
+    --block-modifier: 4; /* 1/3 = 4/12 */
+  }
+}
+
+:root {
+  --block-width: calc(var(--render-width) / 12 * var(--block-modifier));
 }

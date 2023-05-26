@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  .sm3 {
+    width: calc(var(--block-width) * 3);
+  }
+}

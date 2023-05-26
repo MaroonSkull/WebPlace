@@ -1,4 +1,6 @@
-.md5{
+@media screen and (min-width: 1280px) {
+  .lg5{
     width: calc(var(--block-width) * 5);
     display: flex;
+  }
 }

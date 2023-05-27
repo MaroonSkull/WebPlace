@@ -1,0 +1,9 @@
+@import '__md5/request_md5.css';
+@import '__md7/request_md7.css';
+
+.request {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}

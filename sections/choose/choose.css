@@ -1,0 +1,12 @@
+@import '__link/choose__link.css';
+@import '__md5/choose__md5.css';
+@import '__md7/choose__md7.css';
+@import '__primary-button/choose__primary-button.css';
+
+.choose{
+    background: linear-gradient(to right top, var(--second-dark-primary-color), var(--second-primary-color));
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}

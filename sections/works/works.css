@@ -1,0 +1,18 @@
+@import '__lg12/works__lg12.css';
+@import '__md4/works__md4.css';
+@import '__md7/works__md7.css';
+@import '__primary-button/works__primary-button.css';
+
+.works {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.horizontal {
+  display: flex;
+  justify-content: center;
+}

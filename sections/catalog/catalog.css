@@ -1,0 +1,13 @@
+@import '__element/catalog__element.css';
+@import '__md3/catalog__md3.css';
+@import '__my-auto/catalog__my-auto.css';
+
+.catalog {
+  background: var(--base-bg-color);
+  width: 100%;
+  min-height: 100vh;
+  padding: 115px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,10 @@
+@import '__media/footer__media.css';
+
+.footer{
+    background-color: var(--base-footer-black);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

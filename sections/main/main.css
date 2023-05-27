@@ -1,0 +1,18 @@
+@import '__buttons/main__buttons.css';
+@import '__md4/main__md4.css';
+@import '__md8/main__md8.css';
+@import '__p/main__p.css';
+@import '__primary-button/main__primary-button.css';
+@import '__secondary-button/main__secondary-button.css';
+
+.main-wrapper {
+  background: linear-gradient(to right top, var(--first-dark-primary-color), var(--first-primary-color));
+  width: 100%;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}

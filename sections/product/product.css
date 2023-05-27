@@ -1,0 +1,13 @@
+@import '__element/product__element.css';
+@import '__lg12/product__lg12.css';
+@import '__md3/product__md3.css';
+@import '__md9/product__md9.css';
+@import '__my-auto/product__my-auto.css';
+
+.product {
+  background: var(--base-bg-color);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,6 @@
+@media screen and (min-width: 1280px) {
+  .lg10 {
+    width: calc(var(--block-width) * 10);
+    display: flex;
+  }
+}

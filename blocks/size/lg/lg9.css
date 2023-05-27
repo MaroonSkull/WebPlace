@@ -1,4 +1,6 @@
-.lg9 {
+@media screen and (min-width: 1280px) {
+  .lg9 {
     width: calc(var(--block-width) * 9);
     display: flex;
+  }
 }

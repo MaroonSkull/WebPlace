@@ -4,10 +4,5 @@
 
 .catalog {
   background: var(--base-bg-color);
-  width: 100%;
-  min-height: 100vh;
   padding: 115px 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }

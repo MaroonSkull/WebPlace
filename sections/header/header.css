@@ -20,5 +20,5 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-  background-color: var(--first-dark-primary-color);
+  background-color: var(--base-footer-black);;
 }

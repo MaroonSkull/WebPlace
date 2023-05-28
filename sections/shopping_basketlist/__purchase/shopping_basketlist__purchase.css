@@ -1,0 +1,4 @@
+.shopping_basketlist__purchase {
+  border: 2px solid var(--sub-block-border-color);
+  border-radius: min(2vh, 2vw);
+}

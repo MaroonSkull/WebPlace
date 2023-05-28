@@ -1,0 +1,26 @@
+.x-auto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/* I still don't know what i want from this block, lmao
+@media screen and (min-width: 1280px) {
+  .x-auto {
+    width: calc(100% - 60px) !important;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .x-auto {
+    width: calc(100% - 20px) !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .x-auto {
+    width: 100% !important;
+  }
+}
+*/

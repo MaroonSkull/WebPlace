@@ -1,0 +1,24 @@
+.y-auto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .y-auto {
+    width: calc(100% - 60px); /* simple visual spacing */
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .y-auto {
+    width: calc(100% - 20px); /* simple visual spacing */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .y-auto {
+    width: 100%; /* no spacing */
+  }
+}

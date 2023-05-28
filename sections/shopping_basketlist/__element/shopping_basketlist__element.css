@@ -1,0 +1,18 @@
+.shopping_basketlist__element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+  background-color: var(--first-dark-primary-color);
+  border: .2px solid var(--first-primary-color);
+  border-radius: 3%;
+}
+
+.shopping_basketlist__element:hover {
+  background-color: var(--second-dark-primary-color);
+}
+
+.shopping_basketlist__element-image {
+  width: 100%;
+  padding: 25px 0;
+}

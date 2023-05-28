@@ -1,0 +1,12 @@
+/* Shared styles */
+
+@import '/vendor/vendor.css';
+@import '/element/element.css';
+@import '/blocks/blocks.css';
+@import '/unit/unit.css';
+
+/* Sections */
+
+@import '/sections/header/header.css';
+@import '/sections/shopping_basketlist/shopping_basketlist.css';
+@import '/sections/footer/footer.css';

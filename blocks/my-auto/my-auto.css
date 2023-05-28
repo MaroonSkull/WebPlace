@@ -1,5 +1,0 @@
-.my-auto {
-    width: calc(100% - 60px) !important;
-    display: flex;
-    flex-direction: column;
-}

@@ -1,114 +1,15 @@
-/* Vendors */
-@import '../vendor/normalize.css';
-@import '../vendor/variables.css';
-@import '../vendor/fonts/fonts.css';
+/* Shared styles */
 
-/* Units */
-@import '../blocks/body/page.css';
-@import '../blocks/media/media.css';
-@import '../blocks/phone-field/phone-field.css';
+@import '/vendor/vendor.css';
+@import '/element/element.css';
+@import '/blocks/blocks.css';
+@import '/unit/unit.css';
 
-/* Texts */
-@import '../blocks/h1/h1.css';
-@import '../blocks/h2/h2.css';
-@import '../blocks/h3/h3.css';
-@import '../blocks/p/p.css';
-@import '../blocks/helper/helper.css';
-@import '../blocks/copy/copy.css';
+/* Sections */
 
-/* Blocks */
-@import '../blocks/my-auto/my-auto.css';
-@import '../blocks/md4/md4.css';
-@import '../blocks/md5/md5.css';
-@import '../blocks/md7/md7.css';
-@import '../blocks/md8/md8.css';
-@import '../blocks/lg12/lg12.css';
-
-/* SVGs */
-@import '../blocks/logo/logo.css';
-@import '../blocks/callback/callback.css';
-@import '../blocks/tg/tg.css';
-@import '../blocks/vk/vk.css';
-
-/* Buttons */
-@import '../blocks/primary-button/primary-button.css';
-@import '../blocks/secondary-button/secondary-button.css';
-
-/* List */
-@import '../blocks/list/list.css';
-@import '../blocks/link/link.css';
-
-/* IMGs */
-@import '../blocks/sample/sample.css';
-
-
-/* -- */
-
-/* Header */
-@import '../blocks/header/header.css';
-@import '../blocks/header/__nav/header__nav.css';
-@import '../blocks/header/__logo/header__logo.css';
-@import '../blocks/header/__title/header__title.css';
-@import '../blocks/header/__nav-list/header__nav-list.css';
-@import '../blocks/header/__link/header__link.css';
-@import '../blocks/header/__list/header__list.css';
-
-/* Main */
-@import '../blocks/main/main.css';
-@import '../blocks/main/__buttons/main__buttons.css';
-@import '../blocks/main/__my-auto/main__my-auto.css';
-@import '../blocks/main/__h1/main__h1.css';
-@import '../blocks/main/__md4/main__md4.css';
-@import '../blocks/main/__md8/main__md8.css';
-@import '../blocks/main/__p/main__p.css';
-@import '../blocks/main/__primary-button/main__primary-button.css';
-@import '../blocks/main/__secondary-button/main__secondary-button.css';
-
-/* Works */
-@import '../blocks/works/works.css';
-@import '../blocks/works/__h1/works__h1.css';
-@import '../blocks/works/__h2/works__h2.css';
-@import '../blocks/works/__img/works__img.css';
-@import '../blocks/works/__lg12/works__lg12.css';
-@import '../blocks/works/__md4/works__md4.css';
-@import '../blocks/works/__md7/works__md7.css';
-@import '../blocks/works/__p/works__p.css';
-@import '../blocks/works/__primary-button/works__primary-button.css';
-@import '../blocks/works/__secondary-button/works__secondary-button.css';
-
-/* Choose */
-@import '../blocks/choose/choose.css';
-@import '../blocks/choose/__h2/choose__h2.css';
-@import '../blocks/choose/__link/choose__link.css';
-@import '../blocks/choose/__list/choose__list.css';
-@import '../blocks/choose/__md5/choose__md5.css';
-@import '../blocks/choose/__md7/choose__md7.css';
-@import '../blocks/choose/__p/choose__p.css';
-@import '../blocks/choose/__primary-button/choose__primary-button.css';
-@import '../blocks/choose/__sample/choose__sample.css';
-@import '../blocks/choose/__secondary-button/choose__secondary-button.css';
-
-/* Request */
-@import '../blocks/request/request.css';
-@import '../blocks/request/__callback/request__callback.css';
-@import '../blocks/request/__h1/request__h1.css';
-@import '../blocks/request/__helper/request__helper.css';
-@import '../blocks/request/__md5/request_md5.css';
-@import '../blocks/request/__md7/request_md7.css';
-@import '../blocks/request/__my-auto/request_my-auto.css';
-@import '../blocks/request/__p/request_p.css';
-@import '../blocks/request/__phone-field/request_phone-field.css';
-
-/* Footer */
-@import '../blocks/footer/footer.css';
-@import '../blocks/footer/__copy/footer__copy.css';
-@import '../blocks/footer/__media/footer__media.css';
-@import '../blocks/footer/__tg/footer__tg.css';
-@import '../blocks/footer/__vk/footer__vk.css';
-
-/* -- */
-
-/* Main */
-@import '../blocks/main/main.css';
-/* Footer */
-@import '../blocks/footer/footer.css';
+@import '/sections/header/header.css';
+@import '/sections/main/main.css';
+@import '/sections/works/works.css';
+@import '/sections/choose/choose.css';
+@import '/sections/request/request.css';
+@import '/sections/footer/footer.css';

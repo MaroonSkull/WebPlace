@@ -1,0 +1,6 @@
+.h3 {
+    color: var(--primary-text);
+    font-size: 26px;
+    font-family: 'Noto Serif';
+    font-weight: 400;
+}

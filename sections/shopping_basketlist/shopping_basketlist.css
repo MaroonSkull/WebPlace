@@ -1,0 +1,14 @@
+@import '__count/shopping_basketlist__count.css';
+@import '__element/shopping_basketlist__element.css';
+@import '__h3/shopping_basketlist__h3.css';
+@import '__helper/shopping_basketlist__helper.css';
+@import '__md3/shopping_basketlist__md3.css';
+@import '__my-auto/shopping_basketlist__my-auto.css';
+@import '__p/shopping_basketlist__p.css';
+@import '__purchase/shopping_basketlist__purchase.css';
+@import '__secondary-button/shopping_basketlist__secondary-button.css';
+
+.shopping_basketlist {
+  background: var(--base-bg-color);
+  align-content: flex-start;
+}

@@ -1,69 +1,12 @@
-/* Vendors */
-@import '../vendor/normalize.css';
-@import '../vendor/variables.css';
-@import '../vendor/fonts/fonts.css';
+/* Shared styles */
 
-/* Units */
-@import '../elements/body/page.css';
-@import '../blocks/phone-field/phone-field.css';
+@import '/vendor/vendor.css';
+@import '/element/element.css';
+@import '/blocks/blocks.css';
+@import '/unit/unit.css';
 
-/* Texts */
-@import '../elements/h1/h1.css';
-@import '../elements/h2/h2.css';
-@import '../elements/h3/h3.css';
-@import '../elements/p/p.css';
-@import '../blocks/helper/helper.css';
-@import '../blocks/copy/copy.css';
+/* Sections */
 
-/* Blocks */
-@import '../sized/my-auto/my-auto.css';
-@import '../sized/md3/md3.css';
-@import '../sized/md9/md9.css';
-
-/* SVGs */
-@import '../blocks/logo/logo.css';
-@import '../blocks/callback/callback.css';
-@import '../blocks/tg/tg.css';
-@import '../blocks/vk/vk.css';
-
-/* Buttons */
-@import '../blocks/primary-button/primary-button.css';
-@import '../blocks/secondary-button/secondary-button.css';
-
-/* List */
-@import '../elements/list/list.css';
-@import '../elements/link/link.css';
-
-/* IMGs */
-@import '../blocks/sample/sample.css';
-
-/* -- */
-
-/* Header */
-@import '../blocks/header/header.css';
-@import '../blocks/header/__nav/header__nav.css';
-@import '../blocks/header/__logo/header__logo.css';
-@import '../blocks/header/__title/header__title.css';
-@import '../blocks/header/__nav-list/header__nav-list.css';
-@import '../blocks/header/__link/header__link.css';
-@import '../blocks/header/__list/header__list.css';
-
-/* catalog */
-@import '../blocks/catalog/catalog.css';
-@import '../blocks/catalog/__my-auto/catalog__my-auto.css';
-@import '../blocks/catalog/__element/catalog__element.css';
-@import '../blocks/catalog/__h2/catalog__h2.css';
-@import '../blocks/catalog/__link/catalog__link.css';
-@import '../blocks/catalog/__list/catalog__list.css';
-@import '../blocks/catalog/__md3/catalog__md3.css';
-@import '../blocks/catalog/__p/catalog__p.css';
-@import '../blocks/catalog/__primary-button/catalog__primary-button.css';
-@import '../blocks/catalog/__sample/catalog__sample.css';
-@import '../blocks/catalog/__secondary-button/catalog__secondary-button.css';
-
-/* Footer */
-@import '../blocks/footer/footer.css';
-@import '../blocks/footer/__copy/footer__copy.css';
-@import '../blocks/footer/__media/footer__media.css';
-@import '../blocks/footer/__tg/footer__tg.css';
-@import '../blocks/footer/__vk/footer__vk.css';
+@import '/sections/header/header.css';
+@import '/sections/catalog/catalog.css';
+@import '/sections/footer/footer.css';

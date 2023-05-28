@@ -5,14 +5,6 @@
 @import '__primary-button/main__primary-button.css';
 @import '__secondary-button/main__secondary-button.css';
 
-.main-wrapper {
-  background: linear-gradient(to right top, var(--first-dark-primary-color), var(--first-primary-color));
-  width: 100%;
-}
-
 .main {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
+  background: linear-gradient(to right top, var(--first-dark-primary-color), var(--first-primary-color));
 }

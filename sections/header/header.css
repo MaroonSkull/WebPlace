@@ -1,12 +1,13 @@
 @import '__link/header__link.css';
 @import '__list/header__list.css';
 @import '__logo/header__logo.css';
+@import '__nav/header__nav.css';
 @import '__nav-list/header__nav-list.css';
 
 .header {
-  width: calc(var(--block-width) * 12);
-  height: 115px;
+  min-height: 115px;
   display:flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   position: fixed;

@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
   .sm3 {
     width: calc(var(--block-width) * 3);
     display: flex;

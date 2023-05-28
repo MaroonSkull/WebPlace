@@ -1,76 +1,12 @@
-/* Vendors */
-@import '../vendor/normalize.css';
-@import '../vendor/variables.css';
-@import '../vendor/fonts/fonts.css';
+/* Shared styles */
 
-/* Units */
-@import '../elements/body/page.css';
-@import '../blocks/phone-field/phone-field.css';
+@import '/vendor/vendor.css';
+@import '/element/element.css';
+@import '/blocks/blocks.css';
+@import '/unit/unit.css';
 
-/* Texts */
-@import '../elements/h1/h1.css';
-@import '../elements/h2/h2.css';
-@import '../elements/h3/h3.css';
-@import '../elements/p/p.css';
-@import '../blocks/helper/helper.css';
-@import '../blocks/copy/copy.css';
+/* Sections */
 
-/* Blocks */
-@import '../sized/my-auto/my-auto.css';
-@import '../sized/md3/md3.css';
-@import '../sized/md9/md9.css';
-
-/* SVGs */
-@import '../blocks/logo/logo.css';
-@import '../blocks/callback/callback.css';
-@import '../blocks/tg/tg.css';
-@import '../blocks/vk/vk.css';
-
-/* Buttons */
-@import '../blocks/primary-button/primary-button.css';
-@import '../blocks/secondary-button/secondary-button.css';
-
-/* List */
-@import '../elements/list/list.css';
-@import '../elements/link/link.css';
-
-/* IMGs */
-@import '../blocks/sample/sample.css';
-
-/* -- */
-
-/* Header */
-@import '../blocks/header/header.css';
-@import '../blocks/header/__nav/header__nav.css';
-@import '../blocks/header/__logo/header__logo.css';
-@import '../blocks/header/__title/header__title.css';
-@import '../blocks/header/__nav-list/header__nav-list.css';
-@import '../blocks/header/__link/header__link.css';
-@import '../blocks/header/__list/header__list.css';
-
-/* shopping_basketlist */
-@import '../blocks/shopping_basketlist/shopping_basketlist.css';
-@import '../blocks/shopping_basketlist/__my-auto/shopping_basketlist__my-auto.css';
-@import '../blocks/shopping_basketlist/__element/shopping_basketlist__element.css';
-@import '../blocks/shopping_basketlist/__h2/shopping_basketlist__h2.css';
-@import '../blocks/shopping_basketlist/__link/shopping_basketlist__link.css';
-@import '../blocks/shopping_basketlist/__list/shopping_basketlist__list.css';
-@import '../blocks/shopping_basketlist/__md3/shopping_basketlist__md3.css';
-@import '../blocks/shopping_basketlist/__p/shopping_basketlist__p.css';
-@import '../blocks/shopping_basketlist/__primary-button/shopping_basketlist__primary-button.css';
-@import '../blocks/shopping_basketlist/__sample/shopping_basketlist__sample.css';
-@import '../blocks/shopping_basketlist/__secondary-button/shopping_basketlist__secondary-button.css';
-
-/* Footer */
-@import '../blocks/footer/footer.css';
-@import '../blocks/footer/__copy/footer__copy.css';
-@import '../blocks/footer/__media/footer__media.css';
-@import '../blocks/footer/__tg/footer__tg.css';
-@import '../blocks/footer/__vk/footer__vk.css';
-
-/* -- */
-
-/* Main */
-@import '../blocks/main/main.css';
-/* Footer */
-@import '../blocks/footer/footer.css';
+@import '/sections/header/header.css';
+@import '/sections/shopping_basketlist/shopping_basketlist.css';
+@import '/sections/footer/footer.css';

@@ -4,4 +4,6 @@
   border-bottom: 2px solid var(--sub-block-border-color);
   color: var(--first-dark-primary-color);
   padding: 10pt 0;
+  width: 100%;
+  text-align: center;
 }

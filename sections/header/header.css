@@ -22,3 +22,13 @@
   position: fixed;
   background-color: var(--base-footer-black);;
 }
+
+@media print {
+  .header-wrapper {
+    visibility: hidden;
+  }
+
+  .header {
+    visibility: hidden;
+  }
+}

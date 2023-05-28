@@ -8,3 +8,10 @@
   border-bottom: 0;
   background-color: rgba(0,0,0, 0.2);
 }
+
+
+@media print {
+  .choose__md5 {
+    min-height: 70vh;
+  }
+}

@@ -3,3 +3,9 @@
   justify-content: center;
   align-items: center;
 }
+
+@media print {
+  .request__md7 {
+    visibility: hidden;
+  }
+}

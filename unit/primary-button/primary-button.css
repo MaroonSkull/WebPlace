@@ -12,3 +12,9 @@
     align-items: center;
     font-family: 'Source Sans Pro';
 }
+
+@media print {
+  .primary-button {
+    visibility: hidden;
+  }
+}
